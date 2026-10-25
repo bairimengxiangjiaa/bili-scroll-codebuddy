@@ -5,7 +5,7 @@ description: 刷B站值班。按关键词搜索近几天 B 站视频，逐条读
 
 # 刷B站值班章程
 
-项目根：`D:/vibecoding/小龙/bili-scroll/`（下称 ROOT）
+项目根：本仓库根目录（下称 ROOT，通常就是当前工作目录；含 `config.json`、`state/`、`out/`）
 
 ## 一轮的步骤（严格按序）
 
