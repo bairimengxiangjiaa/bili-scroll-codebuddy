@@ -1,0 +1,12 @@
+.venv/
+out/
+state/
+config.json
+*.log
+*.pyc
+__pycache__/
+vendor/bilibili-mcp/bili_credential.json
+.codebuddy/scheduled_tasks.json
+.codebuddy/scheduled_tasks.scheduler.lock/
+.DS_Store
+vendor/bilibili-mcp/bili_credential.json.bak

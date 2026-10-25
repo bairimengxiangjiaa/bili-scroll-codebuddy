@@ -1,0 +1,40 @@
+{
+  "keywords": [
+    "AI Agent",
+    "大模型",
+    "MCP"
+  ],
+  "lookback_days": 3,
+  "search_per_keyword": 10,
+  "max_deep_read_per_run": 4,
+  "max_picks_per_day": 8,
+  "summary": {
+    "enabled": true
+  },
+  "report_detail": "full",
+  "persona": "",
+  "comment": {
+    "enabled": false,
+    "dry_run": true,
+    "max_per_day": 1,
+    "mode": "at+dm",
+    "split_per_user": false,
+    "at_users": [],
+    "at_user": "",
+    "at_uid": "",
+    "dm_notify_self": true
+  },
+  "favorite": {
+    "enabled": false,
+    "folder_id": null
+  },
+  "dm": {
+    "enabled": false
+  },
+  "schedule": {
+    "times": [
+      "12:30",
+      "19:00"
+    ]
+  }
+}

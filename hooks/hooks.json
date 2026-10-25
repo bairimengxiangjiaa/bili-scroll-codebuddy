@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"${CODEBUDDY_PLUGIN_ROOT}/tools/sync_schedule.py\"",
+            "timeout": 20
+          }
+        ]
+      }
+    ]
+  }
+}
