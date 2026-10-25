@@ -60,7 +60,7 @@
 
 ```bash
 # 1. 克隆
-git clone https://github.com/<your-name>/bili-scroll-codebuddy.git
+git clone https://github.com/bairimengxiangjiaa/bili-scroll-codebuddy.git
 cd bili-scroll-codebuddy
 
 # 2. 建独立环境（不污染全局 Python）
