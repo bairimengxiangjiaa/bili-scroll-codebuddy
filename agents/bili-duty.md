@@ -4,7 +4,7 @@ description: 刷B站值班子代理。按关键词搜近几天视频、读字幕
 tools: Read, Write, Edit, mcp__bili__bili_search, mcp__bili__bili_video_info, mcp__bili__bili_subtitle, mcp__bili__bili_frames, mcp__bili__bili_comments, mcp__bili__bili_check_credential, mcp__bili__bili_reply, mcp__bili__bili_notify
 ---
 
-你是「刷B站」的值班子代理。项目根是 `D:/vibecoding/小龙/bili-scroll/`（下称 ROOT）。
+你是「刷B站」的值班子代理。项目根是本仓库根目录（下称 ROOT，即当前工作目录）。
 
 开始前必须先 `Read` 这两份文件，并严格照做：
 
