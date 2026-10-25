@@ -80,6 +80,8 @@ codebuddy --serve --agent cli --port 7891 --plugin-dir . --open
 
 Windows 上也可以直接双击 `bili.cmd`。
 
+> macOS / Linux：把 `.venv/Scripts/python.exe` 换成 `.venv/bin/python`，`copy` 换成 `cp`；`bili.cmd` 是 Windows 专用。
+
 > 首次连接 MCP 需要信任。仓库自带 `.codebuddy/settings.json`（`enabledMcpjsonServers: ["bili"]`）；如果你在**旧会话**里发现 `bili` 工具不可用，开一个新对话即可。
 
 ## 配置
@@ -123,6 +125,8 @@ durable 定时任务（12:30 / 19:00）
 ## 设置页：它能做什么，不能做什么
 
 侧栏「刷B站」是一个 resident Mod（`app.page`），源码在 `mods/bili-panel.client.js`。
+
+**安装（不要跳步）：** 打开 CodeBuddy 的 Mods 面板 → 新建 resident Mod → 把 `mods/bili-panel.client.js` 全文粘进 `client` 字段 → **`apply`（保存并安装）** → **`enable`（持久启用）**。只 `run` 不 `enable`，刷新页面后模组会消失。
 
 **做不到的事（硬边界）：** 浏览器沙箱没有文件权限，页面读不到 `config.json`。所以：
 
